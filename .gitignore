@@ -1,0 +1,20 @@
+# Entornos virtuales
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos local (importante para no sobreescribir datos de otros)
+db.sqlite3
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones de VS Code u otros editores
+.vscode/
+.idea/
