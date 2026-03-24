@@ -18,3 +18,42 @@ Consumo de API Asíncrono: Uso de fetch y async/await para una experiencia de us
 Panel Administrativo: Gestión integral de datos mediante el robusto módulo de administración de Django.
 
 Diseño Responsivo: Interfaz moderna y limpia construida con Tailwind CSS.
+
+
+## 🛠️ Instalación y Configuración Local
+
+Para ejecutar este CRM en tu entorno local, sigue estos pasos:
+
+**Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/migueln06/crm-ventas-django-js.git
+   cd crm-ventas-django-js
+
+   Crear un entorno virtual:
+
+Bash
+python -m venv venv
+
+Activar el entorno virtual:
+
+Windows: venv\Scripts\activate
+
+macOS/Linux: source venv/bin/activate
+
+Instalar las dependencias:
+
+Bash
+pip install -r requirements.txt
+Configurar la base de datos:
+Asegúrate de aplicar las migraciones de Django:
+
+Bash
+python manage.py migrate
+
+Crear un usuario administrador:
+python manage.py createsuperuser
+
+Iniciar el servidor de desarrollo:
+
+python manage.py runserver
+Luego, abre http://127.0.0.1:8000/ en tu navegador.
